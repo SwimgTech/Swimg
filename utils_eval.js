@@ -1,4 +1,4 @@
-let Type = require("./type.js").TYPE;
+let Type = require("./utils_type.js").TYPE;
 
 let Eval = function (value) {
 	if (Type.convert(value) === "int" || Type.convert(value) === "float") {
