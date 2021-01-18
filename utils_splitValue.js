@@ -1,4 +1,4 @@
-let isEmpty = require("./isEmpty.js").isEmpty;
+let isEmpty = require("./utils_isEmpty.js").isEmpty;
 
 let splitValue = function (fullValue, types) {
 	if (/\((.*?)\)/g.test(fullValue)) {
